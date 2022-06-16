@@ -43,7 +43,7 @@ h2 {
 
 
 .table1Body {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -54,15 +54,22 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex: 1;
+    background-color: white;
 }
 
+.table1Row:nth-child(2n) {
+    background-color: #dae2da;
+}
+
+
+
 .table1Key {
-    border: 2px solid green;
+    border: 1px solid rgb(240, 255, 241);
     flex: 1;
 }
 
 .table1Value {
-    border: 2px solid purple;
+    border: 1px solid rgb(240, 255, 241);
     flex: 3;
 }
 
