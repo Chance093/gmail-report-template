@@ -1,7 +1,7 @@
 body {
     background-color: rgb(240, 255, 241);
     font-family: 'Lato', sans-serif;
-    width: 700px;
+    width: 800px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -20,11 +20,13 @@ h1 {
     color: #1e5748;
     font-weight: 700;
     font-size: 3em;
+    margin-bottom: 0;
 }
 
 h2 {
     color: #3cad91;
     font-weight: 400;
+    margin-top: 10px;
 }
 
 
@@ -32,9 +34,9 @@ h2 {
 .table1 {
     width: 700px;
     height: 300px;
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
+    margin: 30px 10px 10px 10px;
 }
 
 .table1Head {
@@ -84,13 +86,12 @@ h2 {
 .table2 {
     width: 700px;
     height: 300px;
-    /* border: black solid; */
     display: flex;
     flex-direction: column;
+    margin: 30px 10px 10px 10px;
 }
 
 .table2Head {
-    /* border: 3px solid red; */
     display: flex;
     justify-content: center;
     background-color: #3cad91;
@@ -122,6 +123,7 @@ h2 {
     border: 1px solid rgb(240, 255, 241);
     flex: 1;
     text-align: center;
+    padding-top: 3px;
 }
 
 .table2Value {
