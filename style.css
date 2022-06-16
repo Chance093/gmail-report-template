@@ -8,6 +8,8 @@ body {
     align-items: center;
 }
 
+
+/* HEADER SECTION */
 header {
     text-align: center;
     width: 750px;
@@ -25,10 +27,11 @@ h2 {
     font-weight: 400;
 }
 
+
+/* TABLE 1 SECTION */
 .table1 {
     width: 700px;
     height: 300px;
-    /* border: 3px solid black; */
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -42,7 +45,6 @@ h2 {
     padding: .4em;
     font-size: 20px;
 }
-
 
 .table1Body {
     flex-grow: 1;
@@ -63,8 +65,6 @@ h2 {
     background-color: #dae2da;
 }
 
-
-
 .table1Key {
     border: 1px solid rgb(240, 255, 241);
     flex: 1;
@@ -79,6 +79,8 @@ h2 {
     padding-left: 10px;
 }
 
+
+/* TABLE 2 SECTION */
 .table2 {
     width: 700px;
     height: 300px;
