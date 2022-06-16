@@ -1,3 +1,8 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
 body {
     background-color: rgb(240, 255, 241);
     font-family: 'Lato', sans-serif;
